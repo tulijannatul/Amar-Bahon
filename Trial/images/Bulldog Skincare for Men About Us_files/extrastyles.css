@@ -1,0 +1,380 @@
+footer .social li.facebook a {
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    width: 35px;
+    height: 30px;
+    background: url('../images/sprite-img.png') 75% 14.5% no-repeat;
+    transition: all .3s ease;
+}
+
+footer .social li.facebook a:hover {
+	background: url('../images/sprite-img.png') 75% 21% no-repeat;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+footer .social li.mail a { width: 59px; }
+
+.cms-no-route footer { margin-top: 0; }
+
+/* Training Page */
+
+.cms-skincare-online-training .removeme { display: none; }
+
+.cms-skincare-online-training .footer { margin-top: 0; }
+
+.cms-skincare-online-training .full-image { margin-bottom: 0; }
+
+.cms-skincare-online-training .full-image .banner-overlay { 
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-top: 160px;}
+
+.cms-skincare-online-training .full-image .banner-overlay .banner-heading { font-size: 72px; line-height: 82px; }
+
+.cms-skincare-online-training .training-bar { 
+    float: left; 
+    width: 100%;
+    background: #8b9894;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 25px 0; }
+
+.cms-skincare-online-training .training-bar ul { float: left; width: 100%; padding: 0; margin: 0; }
+
+.cms-skincare-online-training .training-bar li { float: left; list-style: none; }
+
+.cms-skincare-online-training .training-bar a { 
+    color: #fff; 
+    font-family: 'Helvetica LT W01 Bold';
+    padding: 0 20px; }
+
+.cms-skincare-online-training .training-block { float: left; width: 100%; padding: 60px 0; list-style: none; }
+
+.cms-skincare-online-training .training-block.even .blockText { padding-left: 60px; }
+
+.cms-skincare-online-training .training-block.odd .blockText { padding-right: 60px; }
+
+.cms-skincare-online-training .training-block:nth-of-type(2) .blockImg img { margin-top: -80px; max-width: 540px; float: right; }
+
+.cms-skincare-online-training .training-block:nth-of-type(6) .banner-overlay { margin-top: 50px; }
+
+.cms-skincare-online-training .training-block.odd .blockImg { float: right; }
+
+.cms-skincare-online-training .banner-heading.green { font-size: 40px; color: #2b673c; }
+
+.cms-skincare-online-training .banner-text { color: #898a8e; }
+
+.cms-skincare-online-training .training-block .banner-overlay { margin-top: 40px; }
+
+
+@media(max-width:768px){ 
+
+.cms-skincare-online-training .training-bar li { 
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cms-skincare-online-training .banner-heading.green {
+    font-size: 28px;
+    color: #2b673c;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cms-skincare-online-training .training-block .blockText { padding: 0 10px!important; }
+
+}
+
+@media(max-width:767px){ 
+
+.cms-no-route .row { padding: 0 20px; }
+
+}
+
+@media(max-width:640px){ 
+
+.cms-skincare-online-training .banner-overlay { top: 20%; margin-top: 0; }
+
+.cms-skincare-online-training .banner-overlay h1 { font-size: 60px; line-height: 60px; }
+
+.cms-skincare-online-training .training-block { background-attachment: inherit!important; }
+
+.cms-skincare-online-training .banner-heading.green { margin: 20px 0; }
+
+}
+
+@media(max-width:375px){ 
+
+.cms-no-route .banner-heading { text-align: center; }
+
+.cms-no-route .button { display: table; margin: auto; }
+
+}
+
+.bulldog-winskincare-index-index {
+    color: #54565b;
+}
+.bulldog-winskincare-index-index .footer {
+    margin: 0;
+}
+.bulldog-claimprice-index-index {
+    color: #54565b;
+}
+.bulldog-claimprice-index-index .footer {
+    margin: 0;
+}
+
+.bulldog-claimprice-index-index .slick-slider,
+.bulldog-winskincare-index-index .slick-slider {
+    // display: none;
+}
+
+.floatleft-100 {
+    float: left;
+    width: 100%;
+}
+.bulldog-wrapper {
+    background: url('../bulldog/images/bulldog_bg.jpg') no-repeat scroll 100% 0%;
+    background-size: 100%;
+}
+.bulldog-form input, 
+.bulldog-form textarea, 
+.bulldog-form select {
+    color: #000;
+    width: 100%;
+    padding: 10px;
+}
+.bulldog-form {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 20px 24px;
+}
+.bulldog-form h1 {
+    font-family: 'Sentinel Black';
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    margin-top: 0;
+    line-height: 1;
+    color: #54565b;
+}
+.bulldog-form h1 strong {
+        display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 186px;
+    line-height: 0.6;
+    margin-bottom: 35px;
+}
+.bulldog-form p {
+    font-family: 'HelveticaNeueW01-45Ligh';
+    font-size: 20px;
+    color: #54565b;
+    line-height: 1.1;
+}
+.bulldog-form ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+.bulldog-form ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.bulldog-form ul li.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.bulldog-form ul li.half {
+    width: 50%;
+    width: calc(50% - 10px);
+}
+.bulldog-form ul li.full {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.bulldog-form ul li.mid {
+    width: 75%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.bulldog-form p.where {
+    color: #54565b;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bulldog-form p.where a {
+    color: #54565b;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.bulldog-form ul li input {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #54565b;
+    font-size: 18px;
+}
+.bulldog-form ul li label {
+    text-transform: uppercase;
+    display: inline-block;
+    color: #54565b;
+    font-size: 18px;
+}
+.bulldog-form .button {
+    background: #54565b;
+    border: 0;
+    text-transform: uppercase;
+    width: 200px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 15px auto 0;
+    padding: 15px;
+}
+
+.bulldog-wrapper > .row > .w-col {
+    position: relative;
+}
+.bulldog-wrapper .checkbox {
+    position: relative;
+    bottom: 0;
+}
+.bulldog-wrapper .checkbox label {
+        display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    float: left;
+    width: 95%;
+    width: calc(95% - 20px);
+    margin-left: 20px;
+}
+.bulldog-wrapper .checkbox label a {
+    text-decoration: underline;
+    color: #54565b;
+}
+.bulldog-wrapper .checkbox input {
+    vertical-align: middle;
+    float: left;
+    width: 4%;
+    margin-top: 5px;
+}
+.bulldog-wrapper label.error {
+    color: red;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: normal;
+    display: none;
+}
+
+
+/* bulldog-claimprice-index-index */
+.bulldog-claimprice-index-index .bulldog-form h1 {
+    margin-bottom: 50px;
+}
+.bulldog-claimprice-index-index .bulldog-form h1 strong {
+    font-size: 72px;
+}
+.bulldog-claimprice-index-index .bulldog-form p {
+    font-size: 20px;
+}
+.bulldog-claimprice-index-index .bulldog-form {
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .bulldog-form ul li.half {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .bulldog-wrapper {
+    background: url(../bulldog/images/bulldog_bg.jpg) no-repeat scroll 0% 0%;
+    background-size: cover;
+}
+}
+
+
+/*find-code page*/
+.cms-find-unique-code {
+
+}
+.cms-find-unique-code .footer {
+    margin-top: 0;
+}
+.cms-find-unique-code .find-code-box {
+    background: #f6f6f6;
+    padding: 25px;
+    margin-bottom: 100px;
+    width: 666px;
+    height: 250px;
+    max-width: 100%;
+}
+.find-code-logo {
+    height: 250px;
+    width: auto;
+    float: right;
+}
+.cms-find-unique-code .find-code-box h1 {
+    font-family: 'Sentinel Black';
+    font-size: 48px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    line-height: 1;
+    color: #54565b;
+}
+.cms-find-unique-code .find-code-box p {
+    font-family: 'HelveticaNeueW01-45Ligh';
+    font-size: 20px;
+    color: #54565b;
+    line-height: 1.1;
+}
+.cms-find-unique-code .main-container {
+    background: #e6e6e6;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 992px) {
+    .cms-find-unique-code .main-container {
+        background: #f6f6f6;
+    }
+    .cms-find-unique-code .find-code-box {
+        padding: 50px 0;
+    }
+    .cms-find-unique-code .find-code-box h1 {
+        font-size: 36px;
+    }
+    .cms-find-unique-code .find-code-box p {
+        font-size: 20px;
+    }
+     
+}
+
+
+@media screen and (max-width: 1024px) {
+.bulldog-form ul li.half {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    }
